@@ -1,0 +1,51 @@
+:root{
+    --logo-color:#95E1D3;
+    --accent-color:#F38181;
+    --title-color:#333;
+    --text-color: #B6B6B6;
+    --text-button:#FFF;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    width: 1200px;
+    border: 2px solid red;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--logo-color);
+}
+
+.navigation-link{
+    font-size: 14px;
+    color: var(--logo-color);
+    text-transform: uppercase;
+}
+.navigation-link:hover,
+.navigation-link:focus{
+    color: var(--accent-color);
+}
+
+.slogan{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--title-color);
+    text-align: center;
+}
