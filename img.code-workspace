@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "img",
+			"path": "../../../Desktop/уроки - проекти/MO-GO/img"
+		},
+		{
+			"name": "mo-go",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mo-go",
+		"liveServer.settings.port": 5501
+	}
+}
