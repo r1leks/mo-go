@@ -22,8 +22,20 @@ a{
 body{
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-    width: 1200px;
-    border: 2px solid red;
+}
+
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    padding-top: 17px;
+}
+
+.work{
+   padding-top: 68px;
 }
 
 .logo{
@@ -48,4 +60,49 @@ body{
     margin-bottom: 20px;
     color: var(--title-color);
     text-align: center;
+    margin-bottom: 20px;
 }
+
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.our-team{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.work-title{
+    margin-bottom: 20px;
+
+}
+
+.work-img{
+    margin-right: 20px;
+}
+
+.line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--accent-color);
+    margin-bottom: 65px;
+    
+}
+
+.team-text{
+    margin-bottom: 75px;
+}
+
+.footer-container{
+     border-top: 1px solid;
+}
+
+.foot-btn{
+    background-color: var(--logo-color);
+    color: fff;
+    font-family: ;
+    padding: 11px 38px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: -20px;
+}
+

@@ -7,11 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
      <header class="header">
+        <div class="container">
+
+        
         <a  href="index.html" class="logo">MoGo</a>
 
     <nav class="navigation">
@@ -33,18 +38,20 @@
             </li>
          </ul>
     </nav>
-
+</div>
      </header>
 
-     <main>
+     <main class="main">
         <section class="work">
+            <div class="container">
               <span class="slogan">
                   We work with
 
               </span>
-             <h2 class="work-title">
+             <h2 class="title">
                 Amazing Services
               </h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, accusantium. Assumenda repudiandae placeat rem vel non neque! Fuga nam magnam nesciunt blanditiis reiciendis, non eligendi possimus similique explicabo sint culpa.</p>
 
               <div class="line">
 
@@ -107,58 +114,65 @@
                     </div>
                 </li>
              </ul>
-
+           </div>
         </section>
 
-        <section>
-            <span>Who we are</span>
-            <h2>meet our team</h2>
-            <div></div>
-            <section>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, porro similique minima facere illum alias quidem quia iusto voluptates sint reprehenderit, ipsam ipsum quasi est iste sit quae voluptas libero.</p>
+        <section class="our-team">
+            <div class="container">
+            <span class="slogan">Who we are</span> 
+            <h2 class="title">meet our team</h2>
+            <div class="line">
+   
+            </div>
             
-                <ul>
-                    <li>
-                        <img src="img/first-man1.png" alt="first-man">
-                     <div>
-                        <h3>Matthew Dix</h3>
-                        <p>Graphic Design</p>
+                <p class="team-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, porro similique minima facere illum alias quidem quia iusto voluptates sint reprehenderit, ipsam ipsum quasi est iste sit quae voluptas libero.</p>
+            
+                <ul class="team-list">
+                    <li class="team-item">
+                        <img class="team-img" src="img/first-man1.png" alt="first-man"> 
+                     <div class="team-wrap">
+                        <h3 class="team-name">Matthew Dix</h3>
+                        <p class="team-position">Graphic Design</p>
                     </div>
                     </li>
-                    <li>
-                        <img src="img/second-man1.png" alt="second-man">
-                    <div>
-                        <h3>Christopher Campbell</h3>
-                        <p>Branding/UX design</p>
+                    <li class="team-item">
+                        <img class="team-img" src="img/second-man1.png" alt="second-man">
+                    <div class="team-wrap">
+                        <h3 class="team-name">Christopher Campbell</h3>
+                        <p class="team-position">Branding/UX design</p>
                     </div>
                     </li>
-                    <li>
-                    <img src="img/third-man1.png" alt="third-man">
-                        <div>
-                        <h3>Michael Fertig </h3>
-                        <p>Developer</p>
+                    <li class="team-item">
+                    <img class="team-img" src="img/third-man1.png" alt="third-man">
+                        <div class="team-wrap">
+                        <h3 class="team-name">Michael Fertig </h3>
+                        <p class="team-position">Developer</p>
                     </div>
                     </li>
                 </ul>
+            </div>
             </section>
-        </section>
+            
+        
      </main>
 
-     <footer>
+     <footer class="footer">
+        <div class="container footer-container">
         <p>© 2016 MoGo free PSD template by <a href="">laaqiq</a></p>
         <form>
             <label>
                 email
-                <input type="email" placeholder="your email">
+                <input class="foot-gmail" type="email" placeholder="your email">
 
 
             </label>
 
-           <button>
+           <button class="foot-btn">
               Subscribe
            </button>
 
         </form>
+        </div>
      </footer>
 
 </body>
