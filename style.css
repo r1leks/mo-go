@@ -98,11 +98,12 @@ body{
 
 .foot-btn{
     background-color: var(--logo-color);
-    color: fff;
-    font-family: ;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
     padding: 11px 38px;
     border: none;
     text-transform: uppercase;
     margin-left: -20px;
-}
 
