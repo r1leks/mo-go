@@ -54,6 +54,11 @@ body{
     color: var(--accent-color);
 }
 
+.span-wrap{
+    display: flex;
+    justify-content: center;
+}
+
 .slogan{
     font-family: 'Kaushan Script', cursive;
     font-size: 24px;
@@ -61,6 +66,10 @@ body{
     color: var(--title-color);
     text-align: center;
     margin-bottom: 20px;
+}
+
+.title{
+   text-align: center;
 }
 
 .footer{
@@ -85,6 +94,7 @@ body{
     height: 4px;
     background-color: var(--accent-color);
     margin-bottom: 65px;
+    
     
 }
 
